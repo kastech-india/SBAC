@@ -78,7 +78,7 @@
             <div class="col-md-12">
                <div class="row">
                   <div class="col-md-4 fruits-img">
-                     <img src="images/fruits-image.JPG" alt="Fruits image"/>                    
+                     <img src="images/fruits-image.JPG" alt="Connecting fraction division equations to visual Models"/>                    
                   </div>
                   <div class="col-md-8">
                      <div class="row">
@@ -724,24 +724,8 @@
       <!-- accessibility -->
       <!-- modal end -->
       <script src="js/jquery.js"></script>
-      <script src="js/plugins.js"></script>
-      <!--Template functions-->
+      <script src="js/plugins.js"></script>      
       <script src="js/functions.js"></script>
-      <script>
-         $(document).ready(function () {
-             $(".panel-heading,.moreText").click(function () {
-                 $(this).parent().find(".moreText").toggle();
-         
-                 if ($(this).find(".panel-title").text().replace(/\s/g, '') == "QuickLook") {
-         
-                     $("#qucikLinks .panel-title,#Quick ul li").toggleClass("bFont")
-                 }
-                 else if ($(this).find(".panel-title").text().replace(/\s/g, '') == "Step-by-Step") {
-         
-                     $("#stepLinks .panel-title,#step ol li").toggleClass("bFont")
-                 }
-             });
-         });
-      </script>
+      <script src="js/custom.js"></script>      
    </body>
 </html>
