@@ -463,6 +463,9 @@ button.close, button.close:hover{
 .breadcrumbs h2{
     display: none;
 }
+.fruits-img img{
+    width: 100%;
+}
 
 /*Resopnsives*/
 @media (max-width: 990px) {
