@@ -2964,10 +2964,8 @@ body {
   line-height: 1.65714286em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- /* font-family: "Open Sans", "Helvetica", "Arial", sans-serif;*/
- /*font-family: Montserrat;*/
- /*font-family: 'Exo 2', sans-serif;*/
- 
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif !important;
+ font-family: "Montserrat", "Helvetica", "Arial", sans-serif; 
   color: #565656;
   font-weight: 400; }
 
@@ -3101,106 +3099,6 @@ ul.bullets {
 strong {
   font-weight: 600; }
 
-/*hr {
-    margin: 1.85714286em 0;
-    border-color: #fafafa;
-}*/
-a {
-  color: #565656; }
-  a:hover, a:focus, a:active {
-    text-decoration: none;
-    outline: none;
-    color: #1abc9c; }
-  a:not([href]):not([tabindex]) {
-    color: #565656; }
-
-.font-pacifico {
-  font-family: 'Dancing Script' !important; }
-
-.font-raleway a,
-.font-raleway h1,
-.font-raleway h2,
-.font-raleway h3,
-.font-raleway h4,
-.font-raleway h5,
-.font-raleway h6 {
-  font-family: 'Raleway' !important;
-  font-weight: 100 !important; }
-
-h1.font-raleway,
-h2.font-raleway,
-h3.font-raleway,
-h4.font-raleway,
-h5.font-raleway,
-h6.font-raleway {
-  font-family: 'Raleway' !important;
-  font-weight: 100 !important; }
-
-.font-nothing-you-could-do,
-.font-nothing-you-could-do a,
-.font-nothing-you-could-do h1,
-.font-nothing-you-could-do h2,
-.font-nothing-you-could-do h3,
-.font-nothing-you-could-do h4,
-.font-nothing-you-could-do h5,
-.font-nothing-you-could-do h6,
-h1.font-nothing-you-could-do,
-h2.font-nothing-you-could-do,
-h3.font-nothing-you-could-do,
-h4.font-nothing-you-could-do,
-h5.font-nothing-you-could-do,
-h6.font-nothing-you-could-do {
-  font-family: 'Nothing You Could Do', cursive !important;
-  font-weight: normal !important; }
-
-.font-herr-von-muellerhoff,
-.font-herr-von-muellerhoff a,
-.font-herr-von-muellerhoff h1,
-.font-herr-von-muellerhoff h2,
-.font-herr-von-muellerhoff h3,
-.font-herr-von-muellerhoff h4,
-.font-herr-von-muellerhoff h5,
-.font-herr-von-muellerhoff h6,
-h1.font-herr-von-muellerhoff,
-h2.font-herr-von-muellerhoff,
-h3.font-herr-von-muellerhoff,
-h4.font-herr-von-muellerhoff,
-h5.font-herr-von-muellerhoff,
-h6.font-herr-von-muellerhoff {
-  font-family: 'Herr Von Muellerhoff', cursive !important;
-  font-weight: normal !important; }
-
-.font-cedarville,
-.font-cedarville a,
-.font-cedarville h1,
-.font-cedarville h2,
-.font-cedarville h3,
-.font-cedarville h4,
-.font-cedarville h5,
-.font-cedarville h6,
-h1.font-cedarville,
-h2.font-cedarville,
-h3.font-cedarville,
-h4.font-cedarville,
-h5.font-cedarville,
-h6.font-cedarville {
-  font-family: 'Cedarville Cursive', cursive; }
-
-.font-parisienne,
-.font-parisienne a,
-.font-parisienne h1,
-.font-parisienne h2,
-.font-parisienne h3,
-.font-parisienne h4,
-.font-parisienne h5,
-.font-parisienne h6,
-h1.font-parisienne,
-h2.font-parisienne,
-h3.font-parisienne,
-h4.font-parisienne,
-h5.font-parisienne,
-h6.font-parisienne {
-  font-family: 'Parisienne', cursive; }
 
 .heading-1 {
   text-align: center; }
@@ -3270,7 +3168,7 @@ h6.font-parisienne {
   .heading-4 h1,
   .heading-4 h2,
   .heading-4 h3 {
-    font-family: "Nunito", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     color: #000000;
     font-weight: 300;
     font-size: 50px;
@@ -3278,7 +3176,7 @@ h6.font-parisienne {
   .heading-4 p {
     font-size: 18px;
     line-height: 1.75;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif; }
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;}
     .heading-4 p span {
       font-weight: 600; }
   .heading-4.text-left p, .heading-4.text-right p {
@@ -3289,7 +3187,7 @@ h6.font-parisienne {
   font-weight: 700;
   font-size: 165px;
   word-spacing: 0px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   color: #eeeeee;
   margin-bottom: -60px; }
 
@@ -3412,7 +3310,7 @@ h6.font-parisienne {
     .inspiro-slider .slide-captions .strong {
       color: #fff;
       display: block;
-      font-family: "Montserrat";
+      font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
       font-size: 12px !important;
       font-weight: 700;
       letter-spacing: 2px;
@@ -4077,7 +3975,7 @@ h6.font-parisienne {
     .grid-item.no-overlay .portfolio-description span,
     .grid-item.no-overlay .grid-description span {
       color: #565656;
-      font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+      font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
       font-size: 13px;
       font-style: normal;
       font-weight: 400;
@@ -4089,7 +3987,7 @@ h6.font-parisienne {
     .portfolio-item.no-overlay .grid-description p,
     .grid-item.no-overlay .portfolio-description p,
     .grid-item.no-overlay .grid-description p {
-      font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+      font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
       color: #565656;
       font-weight: 500;
       font-size: 14px;
@@ -4630,7 +4528,7 @@ h6.font-parisienne {
 .grid-articles .post-entry .post-entry-meta .post-entry-meta-title h2,
 .grid-articles .post-entry .post-entry-meta .post-entry-meta-title h2 a {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.2;
@@ -5328,7 +5226,7 @@ h6.font-parisienne {
   font-size: 50px !important;
   font-weight: 100;
   line-height: 1.1;
-  font-family: "Montserrat"; }
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif; }
 
 .text-medium {
   font-size: 50px !important;
@@ -6261,7 +6159,7 @@ body.device-xxs .text-medium-light {
   position: relative; }
   .widget .widget-title,
   .widget > h4 {
-    font-family: "Montserrat";
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -7913,27 +7811,6 @@ Image Block
   right: 23px;
   top: 2px; }
 
-/*hero heading 3*/
-.hero-heading-3 {
-  background-color: #fff;
-  border: 36px solid #fff;
-  box-shadow: 0 0 0 1px #111 inset;
-  color: #111;
-  opacity: 0.7;
-  padding: 72px;
-  width: auto;
-  margin: 40px;
-  text-align: center; }
-
-.hero-heading-3 h2,
-.hero-heading-3 h3 {
-  font-family: 'Josefin Sans', sans-serif;
-  text-transform: uppercase;
-  font-size: 92px;
-  text-align: center;
-  margin: 0;
-  line-height: 72px; }
-
 /*working-hours list*/
 .working-hours ul {
   padding: 0; }
@@ -8505,20 +8382,7 @@ a.toggle-item:active {
 /* ----------------------------------------------------------------
     Hover 3d
 -----------------------------------------------------------------*/
-.hover-3d {
-  /*    .portfolio-description,
-  .grid-description {
-transform: translateZ(0px);
-      a {
-          h3 {
-              font-size: 32px;
-              line-height: 34px;
-          }
-      }
-      p {
-          font-size: 16px;
-      }
-  }*/ }
+
   .hover-3d:hover .grid-item-wrap,
   .hover-3d:hover .portfolio-item-wrap {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); }
@@ -8561,13 +8425,7 @@ transform: translateZ(0px);
   color: #eeeeee; }
 
 /*  Elements */
-/***********************************************************************
-**														              **
-**         POLO Html5 Template		   								  **
-**         Author: INSPIRO MEDIA								      **
-**		   URL: http://www.inspiro-media.com						  **
-**														              **
-************************************************************************/
+
 .accordion {
   margin-bottom: 20px; }
   .accordion .ac-item .ac-title:before {
@@ -9245,7 +9103,7 @@ h5.card-title {
   .heading > h1,
   .heading > h2 {
     font-size: 40px;
-    font-family: "Nunito", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     text-transform: capitalize;
     line-height: 46px;
     font-weight: 300; }
@@ -9361,7 +9219,7 @@ h5.card-title {
 .heading-hero {
   border: 2px solid #ffffff;
   color: #ffffff;
-  font-family: Raleway;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -9449,7 +9307,7 @@ h5.card-title {
 
 /*Creative fade heading*/
 .heading-creative {
-  font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 62px;
   font-weight: 100;
   position: relative;
@@ -9834,14 +9692,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   .icon-box h3,
   .icon-box h5 {
     margin: 0 12px 10px 83px;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     letter-spacing: 0px;
     font-size: 16px;
     line-height: 25px;
     font-weight: 700; }
   .icon-box p {
     margin: 0 0 20px 83px;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-size: 16px;
     line-height: 28px;
     font-weight: 400; }
@@ -10976,7 +10834,7 @@ body.device-xxs hr.space-xxlg, body.device-xs hr.space-xxlg {
   left: 4px;
   position: absolute;
   top: 14px;
-  font-family: Arial; }
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif; }
 .blockquote-fancy > small {
   float: right; }
 
