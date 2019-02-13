@@ -474,8 +474,14 @@ button.close, button.close:hover{
     color: #212121;
     font-size: 13px;
     text-transform: none;
-    letter-spacing: 0 ;
-    
+    letter-spacing: 0 ;    
+}
+#sbar{
+    background-image: none !important;
+    background-color: #252525 !important;
+}
+#sbarlogo{
+    display: none;
 }
 /*Resopnsives*/
 @media (max-width: 990px) {

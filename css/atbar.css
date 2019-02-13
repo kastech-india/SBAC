@@ -1,0 +1,20 @@
+#toolbar-launch {
+	position: absolute;
+	padding: 0;
+	top: -3px;
+	left: 50%;
+
+}
+
+#toolbar-launch img {
+	padding: 0;
+	opacity: 1;
+	width: 30px;
+}
+#toolbar-launch {
+	color: #fff;
+	background-color: #252525;
+	border:1px solid #252525;
+	border-top: 0;
+	font-size: 20px;
+}
