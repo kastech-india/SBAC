@@ -466,7 +466,17 @@ button.close, button.close:hover{
 .fruits-img img{
     width: 100%;
 }
-
+.btn-submit, .btn-submit:hover, .btn-submit:focus{
+    background-color: #c7c7c7 !important;
+    border: #c7c7c7 !important;
+    padding: 10px 25px;
+    text-shadow: 0px 1px #fff !important;
+    color: #212121;
+    font-size: 13px;
+    text-transform: none;
+    letter-spacing: 0 ;
+    
+}
 /*Resopnsives*/
 @media (max-width: 990px) {
   #header #header-wrap #logo a > img {
