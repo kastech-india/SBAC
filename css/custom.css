@@ -14,7 +14,7 @@
     font-weight: 600;
     left: 70px;
     width: max-content;
-    -webkit-transition-width:100;
+    -webkit-transition-width:100%;
    
 }
 .username span.fa{
