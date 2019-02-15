@@ -13,7 +13,7 @@
     color: #000;
     font-weight: 600;
     left: 70px;
-    width: max-content;
+    width: 100%;
 }
 .username span.fa{
     font-weight: 200;
