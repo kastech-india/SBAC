@@ -38,8 +38,12 @@
     font-style: italic;
     letter-spacing: 0.5px;
 }
+#header #header-wrap{
+	border-bottom: none !important;
+}
 .breadcrumbs{
     border-bottom: 1px solid #9a9a9a;
+    border-top: 1px solid #9a9a9a;
     background-color: #ffffff;
 }
 .breadcrumb-item+.breadcrumb-item::before {
@@ -657,9 +661,7 @@ width: auto;
 #mainMenu nav > ul > li.userway-font22:last-child{
 	margin-right: 25px;
 }
-#header #header-wrap.userway-font22{
-	border-bottom: 0;
-}
+
 .california.userway-font32, .california.userway-font34{
 	top: 28px;
 }
