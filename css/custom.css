@@ -643,5 +643,27 @@ width: auto;
 }
 @media  (min-device-width : 992px){
     .greenicons a i{
-    font-size: 40px;
+    font-size: 40px;}
+    .share-ico:nth-child(1){
+   display: block !important; 
+}
+.share-ico {
+    width: 100%;
+    margin: 18px 17px;
+}
+.greenicons a.userway-font24, .boxbtm-ico a.userway-font20, .share-ico a.userway-font22, .greenicons a.userway-font26, .boxbtm-ico a.userway-font22, .share-ico a.userway-font24{
+	word-break: break-word;
+}
+#mainMenu nav > ul > li.userway-font22:last-child{
+	margin-right: 25px;
+}
+#header #header-wrap.userway-font22{
+	border-bottom: 0;
+}
+.california.userway-font32, .california.userway-font34{
+	top: 28px;
+}
+#mainMenu nav > ul > li.userway-font26:last-child, #mainMenu nav > ul > li.userway-font28:last-child{
+	margin-bottom: 25px;
+}
 }
