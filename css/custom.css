@@ -131,7 +131,7 @@
 	font-weight: 600;
 	cursor: pointer;
 }
-a:hover, a:focus, a:active {
+a:hover, a:focus {
 	text-decoration: none;
 	outline: none;
 	color: #368129;
@@ -653,6 +653,12 @@ button.close, button.close:hover{
 			@media  (max-device-width : 767px){
 				.share-ico.empty{
 					display: none;
+				}
+				.tipsfromtechers strong, .tipsfromtechers p{
+					padding-left: 25px;
+				}
+				.tipsfromtechers strong:nth-child(3){
+					padding-left: 15px;
 				}
 			}
 			@media (max-device-width : 480px) {
