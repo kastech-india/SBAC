@@ -2960,12 +2960,12 @@ html {
   html {
     font-size: 81.25%; } }
 body {
-  font-size: 1em;
+/*   font-size: 1em; */
   line-height: 1.65714286em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif !important;
-/*   color: #000000; */
+  color: #000000;
   font-weight: 400; }
 
 h1,
