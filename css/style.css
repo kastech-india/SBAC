@@ -2965,8 +2965,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif !important;
- font-family: "Montserrat", "Helvetica", "Arial", sans-serif; 
-  color: #565656;
+  color: #000000;
   font-weight: 400; }
 
 h1,
