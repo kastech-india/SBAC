@@ -32,7 +32,8 @@ html {
 body #wrapper {
   padding: 0;
   margin: 0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+direction: ltr; }
 body.wide #wrapper {
   width: 100%;
   margin: 0; }
