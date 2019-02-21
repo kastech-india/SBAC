@@ -386,7 +386,7 @@ strong, .differentiation{
 	text-transform: uppercase;
 	font-weight: 700;
 	margin-bottom: 5px;
-	font-size: 35px;
+	/*font-size: 35px;*/
 }
 .draftcontent p{
 	color: white;
