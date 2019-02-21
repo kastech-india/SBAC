@@ -246,9 +246,11 @@ a:hover, a:focus {
 	font-weight: 700;
 	font-size: 20px;
 	cursor: pointer;
+	display: block;
 }
 .panel-heading.collapsed .accordion-toggle.bigaccordion{
 	background-color: #368129;
+	display: block;
 }
 .tasklink{
 	color: #368129;
@@ -258,6 +260,7 @@ a:hover, a:focus {
 	font-size: 18px;
 	letter-spacing: 0;
 	font-weight: 700;
+	display: block;
 }
 .fa-dice-four{
 	color: #368129;
@@ -276,6 +279,7 @@ a:hover, a:focus {
 	letter-spacing: 0;
 	font-weight: 700;
 	color: #368129;
+	line-height: 35px;
 }
 .ac-item p, .ac-item ul li{
 	margin-bottom: 5px;
@@ -382,13 +386,13 @@ strong, .differentiation{
 	background-color:rgb(42, 42, 42);
 	color: #ffffff;
 }
-.draftcontent h3{
+.draftcontent strong{
 	color: white;
 	text-transform: uppercase;
 	font-weight: 700;
 	margin-bottom: 5px;
 	background-color: rgb(42, 42, 42);
-	/*font-size: 35px;*/
+	font-size: 35px;
 }
 .draftcontent p{
 	color: white;
