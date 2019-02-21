@@ -382,14 +382,14 @@ strong, .differentiation{
 	color: #ffffff;
 }
 .draftcontent h3{
-	color: #ffffff;
+	color: white;
 	text-transform: uppercase;
 	font-weight: 700;
 	margin-bottom: 5px;
 	font-size: 35px;
 }
 .draftcontent p{
-	color: #ffffff;
+	color: white;
 /* 	font-size: 10px; */
 	margin-bottom: 0;
 }
