@@ -113,7 +113,7 @@
 	letter-spacing: 0.5px;
 	line-height: 38px;
 }
-.grade-boxtwo h4{    
+.grade-boxtwo strong.clamcontent{    
 	font-weight: 800;
 	color: #000;
 	text-transform: uppercase;
