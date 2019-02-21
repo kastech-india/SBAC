@@ -3078,7 +3078,7 @@ h6,
     line-height: 1.68421053em; } }
 p {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-  font-size: 1em;
+/*   font-size: 1em; */
   font-style: normal;
   font-weight: 400;
   text-transform: none;
