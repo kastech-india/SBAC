@@ -100,7 +100,7 @@
 	text-align: center;
 	font-size: 12px;
 }
-.share-ico a i{
+.share-ico a em{
 	font-size: 27px;
 	vertical-align: middle;
 }
@@ -219,7 +219,7 @@ a:hover, a:focus {
 	font-size: 11px;
 	font-weight: 700;
 }
-.boxbtm-ico a i{
+.boxbtm-ico a em{
 	text-align: center;
 	font-size: 25px;
 	vertical-align: middle;
@@ -554,6 +554,9 @@ button.close, button.close:hover{
 			text-transform: uppercase;
 			font-weight: 700;
 		}
+		.greenicons a.userway-font16{
+			word-break: break-word;
+		}
 	}
 	@media (max-width: 990px) {
 		#header #header-wrap #logo a > img {
@@ -598,6 +601,10 @@ button.close, button.close:hover{
 				.draftcontent p{
 					font-size: 12px;
 				}
+				.greenicons .xs-28 {
+					width: 33%;
+					margin: 6px 15px;
+				}
 			}
 			@media  (min-device-width : 768px){
 				.mathematics-span, .grade-span, .accordion-toggle.bigaccordion:after{
@@ -623,14 +630,14 @@ button.close, button.close:hover{
 					width: auto;
 					margin: 13px 16px;
 				}
-				.greenicons .xs-28 {
+				/*.greenicons .xs-28 {
 					width: 33%;
 					margin: 6px 15px;
-				}
+				}*/
 				.greenicons a {   
 					font-size: 13px;
 				}
-				.greenicons a i {
+				.greenicons a em {
 					font-size: 30px;
 				}
 				.greenicons a img{
