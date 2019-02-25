@@ -22,7 +22,7 @@
          <div class="container-fluid">
             <!--Logo-->
             <div id="logo">
-               <a href="https://kastech-india.github.io/SBAC/index.html" class="logo">
+               <a data-href="https://kastech-india.github.io/SBAC/index.html" class="logo">
                   <image src="images/SmarterBalanced_logo.png"  alt="smart balanced logo" class="img-responsive main-logo" longdesc="https://kastech-india.github.io/SBAC/index.html"></image>
                </a>
             </div>
@@ -38,7 +38,7 @@
                   <nav>
                      <!--left menu-->
                      <ul>
-                        <li class="active"><a href="javascrip:void{0};">Instructional 
+                        <li class="active"><a href="index.html" aria-label="Instuctional Support">Instuctional
                         Support</a>
                      </li>
                      <li><a href="#" aria-label="Professional Learning">Professional Learning</a></li>
@@ -587,8 +587,9 @@
                         </div>
                      </div>
                      <div class="col-md-8 border-left">
-                        <strong>New Note</strong>
-                        <input type="text" title="New Note title" class="form-control border" placeholder="Title" />
+                        
+                        <label for="new-note">New Note</label>
+                        <input  type="text" name="title" id="new-note"  title="New Note title" class="form-control border" placeholder="Title" />
                         <div class="grpspan"><span><em class="fas fa-bold"></em></span> 
                            <span><em class="fas fa-italic"></em></span>
                            <span><em class="fas fa-list"></em></span>
