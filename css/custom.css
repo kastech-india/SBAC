@@ -252,7 +252,7 @@ a:hover, a:focus {
 .panel-heading.collapsed .accordion-toggle.bigaccordion{
 	background-color: #368129;
 	display: block;
-	padding:3px 5px;
+	/*padding:3px 5px;*/
 }
 .tasklink{
 	color: #368129;
