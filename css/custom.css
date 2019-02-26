@@ -135,9 +135,9 @@
 }
 a:hover, a:focus {
 	text-decoration: underline;
-	background-color: rgb(220, 220, 220);
+	background-color: black;
 	outline: none;
-	color: black;
+	color: white;
 
 }
 .morelink{
