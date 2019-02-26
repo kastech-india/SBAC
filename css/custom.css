@@ -134,7 +134,7 @@
 }
 a:hover, a:focus {
 	text-decoration: underline;
-	background-color: black;
+	background-color: rgb(220, 220, 220);
 	outline: none;
 	color: white;
 
@@ -306,7 +306,7 @@ a:hover, a:focus {
 strong, .differentiation{
 	color:#000;
 }
-.accordion .ac-item .col-two:before{
+.accordion .ac-item .col-two:before, .nolabel{
 	display: none;
 }
 .greenicons a{
@@ -514,6 +514,9 @@ button.close, button.close:hover{
 	    color: #368129;
     font-weight: 600;
     text-transform: uppercase;
+}
+.share-ico.userway-font22{
+	margin-right: 30px;
 }
 
 
