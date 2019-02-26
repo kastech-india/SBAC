@@ -13,8 +13,8 @@
 	color: #000;
 	font-weight: 600;
 	left: 70px;
-	width: max-content;
-	-webkit-transition-width:100%;
+	width: 100vw;
+	-webkit-width:100%;
 
 }
 .username span.fa{
@@ -120,6 +120,7 @@
 	letter-spacing: 0.5px;
 	margin-bottom: 8px;
 	font-size: 17px;
+	line-height: 35px;
 }
 .clam-p{
 	border: 1px solid #ccc;
@@ -136,7 +137,7 @@ a:hover, a:focus {
 	text-decoration: underline;
 	background-color: rgb(220, 220, 220);
 	outline: none;
-	color: white;
+	color: black;
 
 }
 .morelink{
@@ -251,6 +252,7 @@ a:hover, a:focus {
 .panel-heading.collapsed .accordion-toggle.bigaccordion{
 	background-color: #368129;
 	display: block;
+	padding:3px 5px;
 }
 .tasklink{
 	color: #368129;
@@ -518,8 +520,30 @@ button.close, button.close:hover{
 .share-ico.userway-font22{
 	margin-right: 30px;
 }
-
-
+.mathematics-span.userway-font16{
+	    margin-right: -6px;
+}
+ .mathematics-span.userway-font19{
+	    margin-right: -7px;
+}
+.mathematics-span.userway-font20{
+	    margin-right: -8px;
+}
+.panel-heading.collapsed .accordion-toggle.bigaccordion.userway-font19:after{
+font-size: 13px;
+    padding: 3px 0px;
+}
+.panel-heading.collapsed .accordion-toggle.bigaccordion.userway-font24:after{
+	font-size: 14px;
+    padding: 5px 0px;
+}
+.panel-heading.collapsed .accordion-toggle.bigaccordion.userway-font28:after, .panel-heading.collapsed .accordion-toggle.bigaccordion.userway-font30:after{
+	font-size: 14px;
+    padding: 8px 0px;
+}
+.l-h-35{
+	line-height: 35px;
+}
 
 
 
@@ -537,6 +561,7 @@ button.close, button.close:hover{
 		}
 		.greenicons a.userway-font24, .greenicons a.userway-font20, .boxbtm-ico a.userway-font20, .share-ico a.userway-font22, .greenicons a.userway-font26, .boxbtm-ico a.userway-font22, .share-ico a.userway-font24{
 			word-wrap:break-word;
+			-ms-word-break: break-word;
 		}
 		#mainMenu nav > ul > li.userway-font22:last-child{
 			margin-right: 25px;
@@ -568,6 +593,7 @@ button.close, button.close:hover{
 		}
 		.greenicons a.userway-font16{
 			word-wrap: break-word;
+			-ms-word-break: break-word;
 		}
 	}
 	@media (max-width: 990px) {
