@@ -14,6 +14,7 @@
    <link  href="css/style.css" rel="stylesheet" type="text/css">
    <link  href="css/responsive.css" rel="stylesheet" type="text/css">
    <link  href="css/custom.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
 
@@ -22,8 +23,8 @@
          <div class="container-fluid">
             <!--Logo-->
             <div id="logo">
-               <a data-href="https://kastech-india.github.io/SBAC/index.html" class="logo">
-                  <image src="images/SmarterBalanced_logo.png"  alt="smart balanced logo" class="img-responsive main-logo" longdesc="https://kastech-india.github.io/SBAC/index.html">
+               <a  data-href="https://kastech-india.github.io/SBAC/index.html" class="logo" title="SmarterBalanced_logo home">
+                  <image src="images/SmarterBalanced_logo.png"  alt="smart balanced logo" class="img-responsive main-logo" longdesc="https://kastech-india.github.io/SBAC/index.html"></image>
                </a>
             </div>
             <!--End: Logo-->                
@@ -38,15 +39,16 @@
                   <nav>
                      <!--left menu-->
                      <ul>
-                        <li class="active"><a href="index.html" aria-label="Instuctional Support">Instuctional
+                        <li class="active">                    
+                           <a href="Instructional_Support.html" aria-label="Instructional Support">Instructional
                         Support</a>
                      </li>
                      <li><a href="#" aria-label="Professional Learning">Professional Learning</a></li>
                      <li><a href="#" aria-label="About This Site">About This Site</a></li>
                      <li><a href="#" aria-label="Present Login UserName"><image src="images/user-image.png"
-                        alt="Present login student image" class="user-img" longdesc="#"></image> <span class="username">Jane doe
-                           <span><image src="images/down-arrow.png" width="15"  longdesc="#" alt=""/></image></span> </span> <span
-                           class="california">california</span></a>
+                        alt="Present login student image" class="user-img" longdesc="#"></image> <strong class="username">Jane doe
+                         <span><image src="images/down-arrow.png" width="15"  longdesc="#" alt=""/></image> </span></strong>
+                            <span class="california">california</span></a>
                         </li>
                      </ul>
                      <!--End right menu-->
@@ -60,6 +62,7 @@
    <section class="breadcrumbs p-0 p-t-5 p-b-5">
       <div class="container-fluid">
          <strong class="for-content">for allignment</strong>
+         <div class="row">
          <div class="col-md-12">
             <nav aria-label="breadcrumb">
                <ol class="breadcrumb m-0">
@@ -71,7 +74,13 @@
                </ol>
             </nav>
          </div>
+         <!-- <div class="col-md-3 text-right">
+            <ul>
+               <li><a href="#skip" shape="rect">Skip to Content </a></li>
+            </ul>
+         </div> -->
       </div>
+   </div>
    </section>
    <section class="p-t-50 p-b-50 boxone">
       <div class="container-fluid">
@@ -112,10 +121,10 @@
                      <strong class="cf-content">Connecting fraction division equations to visual Models</strong>
                      <div class="row ">
                         <div class="col-md-4 col-sm-6">
-                           <em class="m-b-10">Contributrd by: Diana Prince</em>
+                           <em class="m-b-10 l-h-35">Contributrd by: Diana Prince</em>
                         </div>
                         <div class="col-md-4 col-sm-6">
-                           <em>Updated: 1/25/19</em>
+                           <em class="l-h-35">Updated: 1/25/19</em>
                         </div>
                      </div>
                      <div class="row">
@@ -136,7 +145,7 @@
                            <p class="morelink">The student can solve real-word and mathemetical one-<br> step problems involving division of <a href="#">MORE...</a></p>
                         </div>
                         <div class="col-md-5 col-sm-12">
-                           <strong class="clamcontent">Resource Rating  <span class="ratings"> <em>20 Ratings</em></span></strong>
+                           <strong class="clamcontent">Resource Rating  <span class="ratings"> <em class="l-h-35">20 Ratings</em></span></strong>
                            <div class="row">
                               <div class="col-md-4 col-sm-4 text-left  percol">
                                  <p class="smile"><span><em aria-hidden="true" class="far fa-smile" title="80 percentage"></em> </span> 80%</p>
@@ -159,6 +168,7 @@
          </div>
       </div>
    </section>
+   <!-- <div id="main"><a id="skip" shape="rect"></a></div> -->
    <section>
       <div class="container-fluid">
          <div class="col-md-12">
@@ -444,7 +454,7 @@
                      <em class="text-right">3 tips are waiting for approval</em>
                      <strong>Share your trip</strong>
                      <p>Share how you used this resource. How did it go? How did you adapt it for your students? What should other teachers know as they use it in their classrooms?</p>
-                     <textarea class="textarea t-box" cols="20" placeholder="Tell us what you think!" title="Type here Tell us what you think!"> </textarea>
+                     <textarea cols="20" rows="3" class="textarea t-box"  placeholder="Tell us what you think!" title="Type here Tell us what you think!"> </textarea>
                      <div class="text-left">
                         <button class="btn btn-submit " aria-label="Submit">Submit</button>
                      </div>
@@ -586,9 +596,11 @@
                            <p  class="border-bottom p-b-10">Ideas<br><em>9/27/18</em></p>
                         </div>
                      </div>
-                     <div class="col-md-8 border-left">                        
-                        <label for="newnote">New Note</label>
-                        <input  type="text" name="newnote" id="newnote"  title="New Note title" class="form-control border" placeholder="Title" />
+                     <div class="col-md-8 border-left"> 
+                    
+                        <label for="Newnote">New Note :</label>
+                        <input type="text" name="Newnote" id="newnote"  title="New Note" value="aria-hidden" class="form-control border" placeholder="Title" tabindex="-1" />
+                                                               
                         <div class="grpspan"><span><em class="fas fa-bold"></em></span> 
                            <span><em class="fas fa-italic"></em></span>
                            <span><em class="fas fa-list"></em></span>
