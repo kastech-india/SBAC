@@ -20,7 +20,7 @@
 .username span.fa{
 	font-weight: 200;
 }
-#header #header-wrap #logo a > img{
+#header #innerh #logo a > img{
 	height: 100px;
 	margin-top: 25px;
 }
@@ -38,7 +38,7 @@
 	font-style: italic;
 	letter-spacing: 0.5px;
 }
-#header #header-wrap{
+#header #innerh{
 	border-bottom: none !important;
 }
 .breadcrumbs{
@@ -597,7 +597,7 @@ font-size: 13px;
 		}
 	}
 	@media (max-width: 990px) {
-		#header #header-wrap #logo a > img {
+		#header #innerh #logo a > img {
 			height:64px;
 			margin-top: 15px; } 
 			#header{
