@@ -20,7 +20,7 @@
 .username span.fa{
 	font-weight: 200;
 }
-#header #innerh #logo a > img{
+#header #header-wrap #logo a > img{
 	height: 100px;
 	margin-top: 25px;
 }
@@ -38,7 +38,7 @@
 	font-style: italic;
 	letter-spacing: 0.5px;
 }
-#header #innerh{
+#header #header-wrap{
 	border-bottom: none !important;
 }
 .breadcrumbs{
@@ -135,9 +135,9 @@
 }
 a:hover, a:focus {
 	text-decoration: underline;
-	background-color: rgb(220, 220, 220);
+	background-color: black;
 	outline: none;
-	color: black;
+	color: white;
 
 }
 .morelink{
@@ -597,7 +597,7 @@ font-size: 13px;
 		}
 	}
 	@media (max-width: 990px) {
-		#header #innerh #logo a > img {
+		#header #header-wrap #logo a > img {
 			height:64px;
 			margin-top: 15px; } 
 			#header{
